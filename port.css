@@ -849,8 +849,7 @@ text-decoration: none;
 
 .container-fluid .card.mt-2 .card-text {
   font-size: var(--fs-sm);
-  color: var(--clr-text-secondary);
-  line-height: 1.7;
+    color: #2f357e;  line-height: 1.7;
   margin-bottom: 1.25rem;
 }
 
@@ -1256,4 +1255,23 @@ nav, section, footer,
 .fa-brands,
 .fa-regular {
   vertical-align: middle;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-collapse{
+        background: white;
+        padding: 10px 0;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px){
+    .navbar-collapse{
+        background: white;
+        padding: 15px;
+    }
 }
